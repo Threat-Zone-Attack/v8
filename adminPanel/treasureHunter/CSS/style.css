@@ -1,0 +1,53 @@
+#logOut {
+	position: absolute;
+	top: 30px;
+	right: 5px;
+}
+
+#badLogin {
+	color: red;
+}
+
+td.navBarSelected {
+	color: white;
+	text-align: center;
+	background: black;
+	font-weight: bold;
+	border: 2px solid;
+	border-color: white;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+td.loginMenu {
+	text-align: right;
+}
+
+a.navLinkSelected {
+	color: white;
+}
+
+a.navLinkUnselected {
+	color: black;
+}
+
+table.navBar, td.navBarUnselected, table.botsList, tr.botInfoRow, th, td.botInfo {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid;
+	border-color: black;
+}
+
+tr.deadBotInfoRow {
+	color: white;
+	background: red;
+	text-align: center;
+	font-weight: bold;
+	border: 2px solid;
+	border-color: black;
+}
+

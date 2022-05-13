@@ -1,0 +1,25 @@
+﻿Build started 18.08.2014 5:09:01.
+     1>Project "C:\Users\Admin\documents\visual studio 2012\Projects\treasureHunterBuilderGUI\treasureHunterBuilderGUI\treasureHunterBuilderGUI.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(27): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : see declaration of 'wcscat'
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(29): warning C4047: 'function' : 'WPARAM' differs in levels of indirection from 'void *'
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(29): warning C4024: 'SendMessageW' : different types for formal and actual parameter 3
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(30): warning C4047: 'function' : 'LPARAM' differs in levels of indirection from 'void *'
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(30): warning C4024: 'SendMessageW' : different types for formal and actual parameter 4
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(37): warning C4101: 'hButtonExit' : unreferenced local variable
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\createwindow.h(178): warning C4101: 'btnCheckStatus' : unreferenced local variable
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\build.h(32): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdlib.h(554) : see declaration of 'wcstombs'
+     1>c:\users\admin\documents\visual studio 2012\projects\treasurehunterbuildergui\treasurehunterbuildergui\build.h(37): warning C4715: 'writeToBuild' : not all control paths return a value
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Admin\documents\visual studio 2012\Projects\treasureHunterBuilderGUI\Debug\treasureHunterBuilderGUI.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Admin\documents\visual studio 2012\Projects\treasureHunterBuilderGUI\Debug\treasureHunterBuilderGUI.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Admin\documents\visual studio 2012\Projects\treasureHunterBuilderGUI\Debug\treasureHunterBuilderGUI.lib" /MACHINE:X86 Debug\resource.res
+         Debug\main.obj
+         treasureHunterBuilderGUI.vcxproj -> C:\Users\Admin\documents\visual studio 2012\Projects\treasureHunterBuilderGUI\Debug\treasureHunterBuilderGUI.exe
+     1>Done Building Project "C:\Users\Admin\documents\visual studio 2012\Projects\treasureHunterBuilderGUI\treasureHunterBuilderGUI\treasureHunterBuilderGUI.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.00
